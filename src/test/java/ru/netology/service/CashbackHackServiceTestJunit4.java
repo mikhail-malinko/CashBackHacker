@@ -1,12 +1,10 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import java.util.concurrent.Callable;
+import static org.junit.Assert.*;
 
-import static org.testng.Assert.*;
-
-public class CashbackHackServiceTest {
+public class CashbackHackServiceTestJunit4 {
 
     @Test
     public void testRemainifThePurchaseAmountIsNullRubles() {
@@ -87,5 +85,9 @@ public class CashbackHackServiceTest {
         int expected = 999;
 
         assertEquals(actual, expected);
+    }
+
+    @Test
+    public void remain() {
     }
 }
